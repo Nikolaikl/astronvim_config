@@ -13,7 +13,6 @@ return {
         "python-ls-server",
         "ruff-lsp",
         "marksman",
-
       })
     end,
   },
@@ -26,6 +25,8 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "prettier",
         "stylua",
+        "ruff",
+        "sqlfluff",
         "yapf"
       })
     end,
