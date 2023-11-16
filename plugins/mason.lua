@@ -11,7 +11,7 @@ return {
         "lemminx",
         "pyright",
         "python-ls-server",
-        "ruff-lsp",
+        "ruff",
         "marksman",
       })
     end,
