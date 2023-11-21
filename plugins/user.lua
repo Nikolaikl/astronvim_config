@@ -27,6 +27,12 @@ return {
     "danymat/neogen",
     dependencies = "nvim-treesitter/nvim-treesitter",
     config = true,
+    event = "User AstroFile",
+    keys = {
+      { "<Leader>mm", ":lua require('neogen').generate()<cr>", desc = "add neogen docs" },
+    },
+    opts = { noremap = true, silent = true },
+
     -- Uncomment next line if you want to follow only stable versions
     -- version = "*"
   },
