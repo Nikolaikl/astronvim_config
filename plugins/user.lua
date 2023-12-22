@@ -38,7 +38,8 @@ return {
   },
   {
     "github/copilot.vim",
-    event="VeryLazy",
-    version = "*"
+    event = "VeryLazy",
+    autoStart = true,
+    version = "*",
   },
-}
+ }
