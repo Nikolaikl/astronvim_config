@@ -37,9 +37,9 @@ return {
     -- version = "*"
   },
   {
-    "github/copilot.vim",
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
     event = "VeryLazy",
-    autoStart = true,
-    version = "*",
+    config = function() require("copilot").setup {} end,
   },
- }
+}
